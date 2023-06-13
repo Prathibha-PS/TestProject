@@ -15,7 +15,6 @@ public class LoginDefinitions {
 	
 	@Given("User is on Login page")
 	public void user_is_on_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
 		System.setProperty("webdriver.chrome.driver", "C:\\Prathi_p\\Selenium DRIVERS\\chromedriver_win32\\chromedriver.exe");
 	    driver = new ChromeDriver();
 		driver.manage().window().maximize();
