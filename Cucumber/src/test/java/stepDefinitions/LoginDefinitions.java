@@ -25,7 +25,7 @@ public class LoginDefinitions {
 	}
 	@When("User enters valid Username and Password")
 	public void user_enters_valid_username_and_password() {
-	    // Write code here that turns the phrase above into concrete actions
+	    
 		driver.findElement(By.xpath("//input[@id='view40']")).sendKeys("AFFSuper");
 		driver.findElement(By.xpath("//input[@id='view42']")).sendKeys("AFFSuper123");
 		
