@@ -65,6 +65,7 @@ public class LoginDefinitions {
 	    driver.findElement(By.xpath("//button[@class='pndFullViewButton']")).click(); ///html/body/div[1]/div/div/div[2]/div[3]/div[2]/div/div/div[6]/div/button
 		Thread.sleep(70000);
         System.out.println("Maximize Done");
+        System.out.println("Order Flow is In Progress");
 
 
 	}
