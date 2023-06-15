@@ -40,7 +40,7 @@ public class LoginDefinitions {
 	}
 	@Then("User should navigate to Home Page")
 	public void user_should_navigate_to_home_page() throws Exception {
-		boolean status = driver.findElement(By.xpath("//*[@id='ossui-mainframe-header-application']")).isDisplayed();
+		boolean status = driver.findElement(By.xpath("//div[@id='1']")).isDisplayed(); //*[@id='ossui-mainframe-header-application']
 		if(status) {
 			   System.out.println("Navigated to Home Page");
 			   

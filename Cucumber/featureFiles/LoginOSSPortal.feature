@@ -5,4 +5,3 @@ Feature: Login to Amdocs OSS Portal
     When User enters valid Username and Password
     And Clicks on Login Button
     Then User should navigate to Home Page
-
